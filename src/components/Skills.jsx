@@ -3,7 +3,10 @@ import html from "../assets/html.png";
 import css from "../assets/css.png";
 import javascript from "../assets/javascript.png";
 import react from "../assets/react.png";
+import nextjs from "../assets/next.js.png";
 import github from "../assets/github.png";
+import gitlab from "../assets/gitlap.png";
+import git from "../assets/git.png";
 import tailwind from "../assets/tailwind.png";
 import firebase from "../assets/firebase.png";
 
@@ -40,12 +43,24 @@ const Skills = () => {
             <p className="my-4">React.js</p>
           </div>
           <div className="shadow-md shadow-[#040c14] hover:scale-110 duration-300">
-            <img className="w-20 mx-auto" src={github} alt="GITHUP icon" />
-            <p className="my-4">Github</p>
+            <img className="w-20 mx-auto" src={nextjs} alt="NEXT icon" />
+            <p className="my-4">Next.js</p>
           </div>
           <div className="shadow-md shadow-[#040c14] hover:scale-110 duration-300">
             <img className="w-20 mx-auto" src={tailwind} alt="TAILWIND icon" />
             <p className="my-4">Tailwind</p>
+          </div>
+          <div className="shadow-md shadow-[#040c14] hover:scale-110 duration-300">
+            <img className="w-20 mx-auto" src={github} alt="GITHUP icon" />
+            <p className="my-4">Github</p>
+          </div>
+          <div className="shadow-md shadow-[#040c14] hover:scale-110 duration-300">
+            <img className="w-20 mx-auto" src={gitlab} alt="GITLAP icon" />
+            <p className="my-4">Gitlab</p>
+          </div>
+          <div className="shadow-md shadow-[#040c14] hover:scale-110 duration-300">
+            <img className="w-20 mx-auto" src={git} alt="GIT icon" />
+            <p className="my-4">Git</p>
           </div>
         </div>
       </div>

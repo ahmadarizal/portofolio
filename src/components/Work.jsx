@@ -1,5 +1,6 @@
 import React from "react";
-import teamup from "../assets/projects/teamup.png";
+import flow_idphotobook from "../assets/projects/flow_idphotobook.png";
+import idphotoboook from "../assets/projects/idphotobook_kirim_foto.png";
 import dashboard from "../assets/projects/dashboard.png";
 import calculator from "../assets/projects/calculator.png";
 import feeduiten from "../assets/projects/feeduiten.png";
@@ -129,22 +130,51 @@ const Work = () => {
             </div>
           </div>
           <div
-            style={{ backgroundImage: `url(${teamup})` }}
+            style={{ backgroundImage: `url(${flow_idphotobook})` }}
             className="shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div"
           >
             {/* Hover Effects */}
             <div className="opacity-0 group-hover:opacity-100">
-              <span className="text-2xl font-bold text-white tracking-wider">
-                Website Teamup
-              </span>
+              <div className="flex-col px-10 text-2xl font-bold text-white tracking-wider">
+                <span className="pl-16">Website</span> <br />
+                <span className="pl-1">flow idphotobook</span>
+              </div>
               <div className="pt-8 text-center">
-                <a href="https://www.team-up.id/" target="_blank">
+                <a href="https://flow.idphotobook.id/" target="_blank">
                   <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">
                     Demo
                   </button>
                 </a>
                 <a
-                  href="https://github.com/IzraNovan/FE-Team-Up"
+                  // href="https://gitlab.com/jujunsetiawan/flow-idphotobook-frontend"
+                  target="_blank"
+                >
+                  <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">
+                    Code
+                  </button>
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <div
+            style={{ backgroundImage: `url(${idphotoboook})` }}
+            className="shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div"
+          >
+            {/* Hover Effects */}
+            <div className="opacity-0 group-hover:opacity-100">
+              <div className="flex-col text-2xl font-bold text-white tracking-wider">
+                <span className="pl-16">Website kirim</span>{" "}
+                <span className="pl-10">foto idphotobook</span>
+              </div>
+              <div className="pt-8 text-center">
+                <a href="https://flow.idphotobook.id/kirimfoto" target="_blank">
+                  <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">
+                    Demo
+                  </button>
+                </a>
+                <a
+                  // href="https://gitlab.com/jujunsetiawan/idphotobook_kirimfoto"
                   target="_blank"
                 >
                   <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">
