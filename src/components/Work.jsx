@@ -1,6 +1,8 @@
 import React from "react";
-import flow_idphotobook from "../assets/projects/flow_idphotobook.png";
-import idphotoboook from "../assets/projects/idphotobook_kirim_foto.png";
+import flow_idphotobook from "../assets/projects/flow_idphotobook1.png";
+import idphotoboook from "../assets/projects/idphotobook_kirim_foto1.png";
+import makenLiving from "../assets/projects/maken_living.png";
+import tamasyaVilla from "../assets/projects/tamasya_villa.png";
 import dashboard from "../assets/projects/dashboard.png";
 import calculator from "../assets/projects/calculator.png";
 import feeduiten from "../assets/projects/feeduiten.png";
@@ -76,6 +78,37 @@ const Work = () => {
               </div>
             </div>
           </div>
+
+          <div
+            style={{ backgroundImage: `url(${dashboard})` }}
+            className="shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div"
+          >
+            {/* Hover Effects */}
+            <div className="opacity-0 group-hover:opacity-100">
+              <span className="text-2xl font-bold text-white tracking-wider">
+                Website dashboard
+              </span>
+              <div className="pt-8 text-center">
+                <a
+                  href="https://dashboard-omega-black-94.vercel.app/"
+                  target="_blank"
+                >
+                  <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">
+                    Demo
+                  </button>
+                </a>
+                <a
+                  href="https://github.com/ahmadarizal/dashboard"
+                  target="_blank"
+                >
+                  <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">
+                    Code
+                  </button>
+                </a>
+              </div>
+            </div>
+          </div>
+
           <div
             style={{ backgroundImage: `url(${restoran})` }}
             className="shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div"
@@ -186,25 +219,51 @@ const Work = () => {
           </div>
 
           <div
-            style={{ backgroundImage: `url(${dashboard})` }}
+            style={{ backgroundImage: `url(${makenLiving})` }}
             className="shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div"
           >
             {/* Hover Effects */}
             <div className="opacity-0 group-hover:opacity-100">
-              <span className="text-2xl font-bold text-white tracking-wider">
-                Website dashboard
-              </span>
+              <div className="flex-col text-2xl font-bold text-white tracking-wider">
+                <span className="pl-[6rem]">Website</span>{" "}
+                <span className="pl-16">Maken Living</span>
+              </div>
               <div className="pt-8 text-center">
-                <a
-                  href="https://dashboard-omega-black-94.vercel.app/"
-                  target="_blank"
-                >
+                <a href="https://makenliving.my.id/admin" target="_blank">
                   <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">
                     Demo
                   </button>
                 </a>
                 <a
-                  href="https://github.com/ahmadarizal/dashboard"
+                  // href="https://gitlab.com/jujunsetiawan/idphotobook_kirimfoto"
+                  target="_blank"
+                >
+                  <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">
+                    Code
+                  </button>
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <div
+            style={{ backgroundImage: `url(${tamasyaVilla})` }}
+            className="shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div"
+          >
+            {/* Hover Effects */}
+            <div className="opacity-0 group-hover:opacity-100">
+              <div className="flex-col text-2xl font-bold text-white tracking-wider">
+                <span className="pl-[98px]">Website</span>{" "}
+                <span className="pl-16">Tamasya Villa</span>
+              </div>
+              <div className="pt-8 text-center">
+                {/* <a href="https://makenliving.my.id/" target="_blank"> */}
+                <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">
+                  Demo
+                </button>
+                {/* </a> */}
+                <a
+                  // href="https://gitlab.com/jujunsetiawan/idphotobook_kirimfoto"
                   target="_blank"
                 >
                   <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">
